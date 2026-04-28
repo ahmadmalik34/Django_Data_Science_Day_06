@@ -17,3 +17,38 @@ def load_stock_data(filepath):
         'closes':closes,
         'volumes':volumes
     }
+
+def main():
+     print("🚀 Starting Stock Market Analysis with NumPy...\n")
+    
+    print("📁 Loading stock data...")
+    stock_data = load_stock_data('data/stock_data.csv')
+    print(f"✅ Loaded {len(stock_data['dates'])} days of data\n")
+
+       print("📁 Loading stock data...")
+    stock_data = load_stock_data('data/stock_data.csv')
+    print(f"✅ Loaded {len(stock_data['dates'])} days of data\n")
+    
+    # Calculate statistics
+    print("📊 Calculating statistics...")
+    stats = calculate_statistics(stock_data)
+    
+    # Find best/worst days
+    print("🔍 Analyzing best and worst trading days...")
+    best_day, worst_day = find_best_worst_days(stock_data)
+    
+    # Generate signals
+    print("💡 Generating trading signals...")
+    ma, signals = generate_signals(stock_data)
+    
+    # Generate and print report
+    report = generate_report(stock_data, stats, best_day, worst_day, ma, signals)
+    print(report)
+    
+    # Save report to file
+    with open('stock_analysis_report.txt', 'w') as f:
+        f.write(report)
+    print("✅ Report saved to 'stock_analysis_report.txt'")
+
+if __name__ == '__main__':
+    main()
