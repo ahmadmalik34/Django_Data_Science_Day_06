@@ -17,7 +17,16 @@ def load_stock_data(filepath):
         'closes':closes,
         'volumes':volumes
     }
+def calculate_statistics(stock_data):
+    pass
 
+def find_best_worst_days(stock_data):
+    pass
+
+def generate_signals(stock_data):
+    pass
+def generate_report(stock_data, stats, best_day, worst_day, ma, signals):
+    pass
 def main():
      print("🚀 Starting Stock Market Analysis with NumPy...\n")
     
