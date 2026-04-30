@@ -2,6 +2,10 @@
 
 This project demonstrates how to use the NumPy library in Python to perform a basic analysis of stock data. The analysis includes calculating the average closing price, the highest and lowest prices, and the daily returns.
 
+## Technology Stack
+- Python
+- NumPy
+
 ## Features
 
 -   **Data Loading**: Loads stock data from a CSV file using NumPy.
@@ -28,3 +32,4 @@ This project demonstrates how to use the NumPy library in Python to perform a ba
 ## Data
 
 The `data/stock_data.csv` file contains sample stock data with the following columns: `Date`, `Open`, `High`, `Low`, `Close`, `Volume`.
+
