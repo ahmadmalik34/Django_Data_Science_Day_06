@@ -15,7 +15,7 @@
 
 ## 🎯 Overview
 
-Master NumPy fundamentals by analyzing stock market data. Calculate statistics, detect trends, and generate trading signals using vectorized operations.
+Master NumPy fundamentals by analyzing stock market data. Calculate statistics, detect trends, and generate buy/sell trading signals using vectorized operations.
 
 **See the power of NumPy: 100x faster than Python loops.**
 
