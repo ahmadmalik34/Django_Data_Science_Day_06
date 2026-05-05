@@ -6,7 +6,6 @@
 
 [![NumPy](https://img.shields.io/badge/NumPy-2.0%2B-blue?style=flat-square&logo=numpy)](https://numpy.org/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat-square&logo=python)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
 [Features](#-features) • [Installation](#-installation) • [Learn More](#-key-concepts)
 
